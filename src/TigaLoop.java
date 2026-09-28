@@ -38,6 +38,7 @@ public class TigaLoop {
         System.out.println();
 
         // ===== 3. Bukti meleset satu (off-by-one) =====
+        // i < n berputar n-1 kali, i <= n berputar n kali
         System.out.println();
 
         int kurang = 0;
