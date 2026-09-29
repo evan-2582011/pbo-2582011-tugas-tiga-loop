@@ -99,7 +99,10 @@ public class TigaLoop {
  * for      :
  * while    :
  * do-while : 1
- *
+ *   i <  n berputar : 0 kali
+ *  i <= n berputar : 0 kali
+ * Disaring : 1 3 5 7
+ * Sampai println  : 4 kali
  * ---- Kenapa dua baris pertama kosong, tapi baris ketiga tidak? ----
  * Pada n = 0, for dan while mengecek kondisi (1 <= 0) SEBELUM badan loop
  * dijalankan. Kondisinya langsung false, sehingga badan loop tidak pernah
